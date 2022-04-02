@@ -1,0 +1,25 @@
+Introduction
+Tic-tac-toe is not a very challenging game for human
+ beings. If you’re an enthusiast, you’ve probably moved from the basic game to some variant like three dimensional tic-tac-toe on a larger grid. If you sit down right now to play ordinary three-by-three tic-tac-toe with a friend, what will probably happen is that every game will come out a tie. Both you and your friend can  probably play perfectly, never making a mistake that would allow your opponent to win. But can you describe how you know where to move each turn? Most of the time, you probably aren’t even aware of alternative
+ possibilities; you just look at the board and instantly know
+where you want to move. That kind of instant knowledge is great for human beings, because it makes you a fast  player. But it isn’t much help in writing a computer  program. For that, you have to know very explicitly what your strategy is.
+
+
+STRATEGY algorithm used in coding
+The highest-priority and the lowest-priority rules seemed obvious to me right away.The highest-priority are these:
+1.	If I can win on this move,do it.
+2.	If the other player can win on the next move,block thatwinning square.
+Here are the lowest-priority rules,used only if there is nothing suggested more strongly by the board position:
+n-2. Take the center square if it’s free. n-1. Take a corner square if one is free. n. Take whatever is available.
+The highest priority rules are the ones dealing with the most urgent situations:either I or my opponent can win on the next move.The lowest priority ones deal with the least urgent situations,in which there is nothing special about the moves already made to guide me.
+What was harder was to find the rules in between.I knew that the goal of my own tic-tac-toe strategy was to set up a fork, a board position in which I have two winning moves,
+
+
+Most of the computer games require high configurations of computer. But in the case of the
+proposed gaming system, the system requirements is not that much.
+The minimum systems requirements for the proposed project “Tic Tac Toe” game is mentioned
+following.
+(a) Operating System: Android 6.0
+(b) Processor: 1.2 GHz
+(c) RAM: 512MB
+(d) Storage: 100 MB
